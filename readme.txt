@@ -1,7 +1,7 @@
 === Author Order By Login Name ===
 
 Contributors: mayukojpn, magazine-k
-Donate link: https://github.com/mayukojpn/Author-Order-By-Login-Name 
+Donate link: https://github.com/magazine-k/Author-Order-By-Login-Name 
 Tags: Japanese
 Requires at least: 4.1
 Tested up to: 4.2

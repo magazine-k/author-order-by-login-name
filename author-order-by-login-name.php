@@ -3,7 +3,7 @@
 Plugin Name: Author Order By Login Name
 Version: 0.2
 Description: 投稿編集画面の「作成者」欄の並び順を、アルファベットのログイン名順にします。
-Plugin URI: https://github.com/mayukojpn/Author-Order-By-Login-Name
+Plugin URI: https://github.com/magazine-k/Author-Order-By-Login-Name
 Author: マガジン航 
 Author URI: http://magazine-k.jp
 Text Domain: magk
