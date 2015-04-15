@@ -5,7 +5,7 @@ Donate link: https://github.com/magazine-k/Author-Order-By-Login-Name
 Tags: Japanese
 Requires at least: 4.1
 Tested up to: 4.2
-Stable tag: 0.2
+Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 投稿編集画面の「作成者」欄の並び順を、アルファベットのログイン名順にします。
@@ -28,6 +28,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
+= 0.3 =
+
+* Plugin URI を https://github.com/magazine-k/Author-Order-By-Login-Name/ に変更
+
 = 0.2 = 
 
 * ドロップダウンに、表示名も表示されるようにした。
@@ -37,6 +41,10 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * 最初のバージョン。
 
 == Upgrade Notice ==
+
+= 0.3 =
+
+* Plugin URI を https://github.com/magazine-k/Author-Order-By-Login-Name/ に変更
 
 = 0.2 = 
 
