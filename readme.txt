@@ -15,12 +15,12 @@ Sort author options in alphabetical order of login name.
 
 Sort author options in alphabetical order of login name.
 
-It's useful for site administrators and editors who has more than a hundred users and use language with variety of characters to assign their author quickly.
+It's useful for administrators and editors of websites which have more than a hundred users and use Chinese characters or other character-rich language to assign or switch their author quickly.
 
 == Screenshots ==
 
-1. Without plugin. Nobody can remember which chinese character is which unicode number.
-2. With plugin. It's easier to find user name.
+1. Without plugin. It's impossible to remember unicode order for chinese character. User should search by their eyes one by one.
+2. With plugin. It's easier to find user name. Also, you can type alphabet and navigate to the item.
 
 == Changelog ==
 
