@@ -1,56 +1,35 @@
 === Author Order By Login Name ===
 
 Contributors: mayukojpn, magazine-k
-Donate link: https://github.com/magazine-k/Author-Order-By-Login-Name 
-Tags: Japanese
-Requires at least: 4.1
-Tested up to: 4.2
-Stable tag: 0.3
+Donate link: https://github.com/magazine-k/author-order-by-login-name
+Tags: Japanese, author
+Requires at least: 4.6
+Tested up to: 4.9.8
+Stable tag: 0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-投稿編集画面の「作成者」欄の並び順を、アルファベットのログイン名順にします。
+
+Sort author options in alphabetical order of login name.
 
 == Description ==
 
-投稿編集画面の「作成者」欄の並び順を、アルファベットのログイン名順にします。
-日本語など、文字コード順にすると探しにくい言語で使うと便利です。
+Sort author options in alphabetical order of login name.
 
-== Installation ==
-
-1. ダウンロードする
-2. zipファイルを解凍する
-3. プラグインディレクトリにアップロードする(wp-content/plugins)。
-4. プラグインを有効化する
+It's useful for site administrators and editors who has more than a hundred users and use language with variety of characters to assign their author quickly.
 
 == Screenshots ==
 
-1. プラグインがない状態。ひらがなの人はいいけど漢字の人は、どこに誰がいるか探すのが大変です！
-2. プラグインを有効にした状態。ログイン名はアルファベットしか使用しないので探しやすくなりました。 
+1. Without plugin. Nobody can remember which chinese character is which unicode number.
+2. With plugin. It's easier to find user name.
 
 == Changelog ==
 
-= 0.3 =
+= 0.4 =
 
-* Plugin URI を https://github.com/magazine-k/Author-Order-By-Login-Name/ に変更
-
-= 0.2 = 
-
-* ドロップダウンに、表示名も表示されるようにした。
-
-= 0.1 =
-
-* 最初のバージョン。
+* Support internationalization.
 
 == Upgrade Notice ==
 
-= 0.3 =
+= 0.4 =
 
-* Plugin URI を https://github.com/magazine-k/Author-Order-By-Login-Name/ に変更
-
-= 0.2 = 
-
-* ドロップダウンに、表示名も表示されるようにした。
-
-= 0.1 =
-
-* 最初のバージョン。
+* Support internationalization.

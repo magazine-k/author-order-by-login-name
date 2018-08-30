@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Author Order By Login Name
-Version: 0.3
-Description: 投稿編集画面の「作成者」欄の並び順を、アルファベットのログイン名順にします。
-Plugin URI: https://github.com/magazine-k/Author-Order-By-Login-Name
-Author: マガジン航 
+Version: 0.4
+Description: Sort author options in alphabetical order of login name.
+Plugin URI: https://github.com/magazine-k/author-order-by-login-name
+Author: magazine-k.jp
 Author URI: http://magazine-k.jp
 */
 function magk_dropdown_users( $args = '' ) {
@@ -81,7 +81,7 @@ function magk_post_author_meta_box($post) {
 
 	global $user_ID;
 ?>
-<label class="screen-reader-text" for="post_author_override"><?php _e('Author')._e( ': ユーザー名順モード', 'author-order-by-login-name' ); ?></label>
+<label class="screen-reader-text" for="post_author_override"><?php _e( 'Authors (login name order mode):', 'author-order-by-login-name' ); ?></label>
 <?php
 	magk_dropdown_users( array(
 		'selected' => empty($post->ID) ? $user_ID : $post->post_author,
@@ -91,5 +91,5 @@ function magk_post_author_meta_box($post) {
 add_action( 'add_meta_boxes_post',  'magk_add_meta_boxes' );
 function magk_add_meta_boxes() {
     remove_meta_box( 'authordiv', 'post', 'core' );
-    add_meta_box( 'authordiv', __('Author').__( ': ユーザー名順モード', 'author-order-by-login-name' ), 'magk_post_author_meta_box', 'post', 'advanced', 'high' );
+    add_meta_box( 'authordiv', _e( 'Authors (login name order mode):', 'author-order-by-login-name' ), 'magk_post_author_meta_box', 'post', 'advanced', 'high' );
 }
